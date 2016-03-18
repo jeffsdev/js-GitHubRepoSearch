@@ -1,0 +1,63 @@
+main {
+  display: flex;
+  flex-wrap: wrap;
+  background: #111;
+  background-image: url('https://s-media-cache-ak0.pinimg.com/736x/b5/17/03/b51703e04bb56cacde4aebba943b34b0.jpg');
+  color: #333;
+  h2 {
+    margin: 0;
+  }
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+  flex: 1 100%;
+  background: rgba(0, 0, 0, 0.6);
+  color: #bbb;
+  height: 40vh;
+  max-height: 300px;
+  text-align: center;
+  justify-content: center;
+}
+
+.user-repo-list {
+  display: flex;
+  flex-direction: column;
+  flex: 1 100%;
+  text-align: center;
+  padding: 20px 0;
+  ul {
+    list-style: none;
+    padding: 0;
+    max-width: 90%;
+    margin: auto;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.user-repo-list {
+  width: 85%;
+}
+
+.gh-reponame {
+  margin: 20px 0;
+  font-weight: bold;
+  background: #ccc;
+  .gh-repodesc {
+    font-weight: normal;
+    margin-left: 20px;
+    padding: 20px;
+  }
+}

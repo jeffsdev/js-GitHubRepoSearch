@@ -1,0 +1,13 @@
+.gh-form {
+  button {
+    margin: auto;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid #333;
+    background: none;
+    &:hover {
+      background: rgba(25, 75, 100, 0.5);
+      color: #ccc;
+    }
+  }
+}

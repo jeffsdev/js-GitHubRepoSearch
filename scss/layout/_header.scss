@@ -1,3 +1,17 @@
 .header {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
   background: #ddd;
+  justify-content: center;
+  background-image: url('https://s3.amazonaws.com/f.cl.ly/items/3a2h193d3W3O0L3g2U43/octocat_darkwood.jpg');
+  background-position: center;
+  // background-size: cover;
+  h1 {
+    text-align: center;
+    margin: 0 0 75px 0;
+    flex: 1 100%;
+    justify-content: center;
+    align-self: flex-end;
+  }
 }

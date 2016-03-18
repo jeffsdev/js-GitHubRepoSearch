@@ -1,0 +1,23 @@
+{
+  "name": "skeleton",
+  "description": "",
+  "main": "index.js",
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.1",
+    "moment": "^2.12.0",
+    "normalize-css": "https://github.com/necolas/normalize.css.git#^3.0.3"
+  },
+  "authors": [
+    "Jeff Seymour <seym1585@gmail.com>"
+  ]
+}

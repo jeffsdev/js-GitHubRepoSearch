@@ -1,5 +1,5 @@
 main {
-  display: flex;
+  display: none;
   flex-wrap: wrap;
   background: #111;
   background-image: url('https://s-media-cache-ak0.pinimg.com/736x/b5/17/03/b51703e04bb56cacde4aebba943b34b0.jpg');
@@ -15,7 +15,6 @@ main {
   background: rgba(0, 0, 0, 0.6);
   color: #bbb;
   height: 25vh;
-  // max-height: 350px;
   min-height: 200px;
   padding: 20px 2%;
   text-align: center;

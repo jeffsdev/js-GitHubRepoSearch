@@ -9,6 +9,7 @@ $(document).ready(function() {
     userInput = $('.user-input').val();
     getUserInfo();
     getRepos();
+    $('main').addClass("flex");
 
 
   });

@@ -5,12 +5,13 @@ exports.getUserInfo = function(){
   $.get('https://api.github.com/users/' + userInput + '?access_token=' + apiKey).then(function(response){
     console.log(response);
 
-    userRepos = response.repos_url;
+    userAvatar = response.avatar_url;
 
     userName = response.login;
     userRealName = response.name;
     userLocation = response.location;
 
+    $('.gh-avatar').attr("src", userAvatar);
     $('.gh-username').text(userName);
     $('.gh-realname').text(userRealName);
     $('.gh-location').text(userLocation);

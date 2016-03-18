@@ -21,7 +21,7 @@ exports.getUserInfo = function(){
 };
 
 
-Get Repository Names and Details
+// Get Repository Names and Details
 exports.getRepos = function(){
   $.get('https://api.github.com/users/jeffsdev/repos?access_token=' + apiKey + '&per_page=9999;sort="updated"').then(function(response){
     console.log(response);

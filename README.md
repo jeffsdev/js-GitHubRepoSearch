@@ -1,5 +1,5 @@
 # JavaScript - Github Username Search
-#### Week 1 - JavaScrip code review for Epicodus  
+#### Week 1 - JavaScript code review for Epicodus  
 ##### By Jeff Seymour
 
 ## Description

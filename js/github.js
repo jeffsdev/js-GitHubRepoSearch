@@ -32,9 +32,6 @@ exports.getRepos = function(){
       $('#repo' + i).append("<div class='gh-repodesc' id='repo-desc" + i + "'>" + repository.description + "</div>");
     });
 
-
-
-
   }).fail(function(error){
     console.log(error.responseJSON.message);
   });

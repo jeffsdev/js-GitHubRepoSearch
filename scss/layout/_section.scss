@@ -18,16 +18,20 @@ main {
   min-height: 200px;
   padding: 20px 2%;
   text-align: center;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   .gh-avatar {
     max-width: 125px;
-    margin: auto;
-    // border: 1px solid green;
+    margin-right: 5%;
+    @media screen and (#{$medium}) {
+      margin-right: 3%;
+    }
   }
   .gh-details {
-    // border: 1px solid green;
-    width: 50%;
+    margin-left: 5%;
+    @media screen and (#{$medium}) {
+      margin-right: 3%;
+    }
     h2 {
       font-size: 2em;
     }
@@ -49,29 +53,20 @@ main {
     padding: 0;
     max-width: 90%;
     margin: auto;
+    li {
+      padding-top: 20px;
+      a:hover {
+        color: #356;
+      }
+    }
   }
-
 }
 
-
-
-
-
-
-
-
-
-
-
-
-.user-repo-list {
-  width: 85%;
-}
 
 .gh-reponame {
   margin: 20px 0;
   font-weight: bold;
-  background: #ccc;
+  background: rgba(255, 255, 255, 0.3);
   .gh-repodesc {
     font-weight: normal;
     margin-left: 20px;

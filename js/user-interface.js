@@ -10,10 +10,6 @@ $(document).ready(function() {
     getUserInfo();
     getRepos();
     $('main').addClass("flex");
-
-
   });
-
-
 
 });

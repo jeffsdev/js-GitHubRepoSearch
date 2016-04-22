@@ -18,7 +18,7 @@ HTML, SASS/SCSS, JavaScript, jQuery, Gulp, Bower
 * In your terminal, run `$bower install`.
 * In your terminal, run `$gulp build`.
 * In your terminal, run `$gulp serve`.
-* View in browser.
+* View in browser at localhost:3000
 
 ## License
 Copyright (c) 2016 Jeff Seymour
